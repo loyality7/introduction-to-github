@@ -1,4 +1,69 @@
-<title>Tic Tac Toe</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title> <!-- Title of the web page -->
+
+    <style>
+        /* Styling for body, td, and input elements */
+        body,
+        td,
+        input {
+            font-size: 24px;
+            line-height: 1.5;
+            text-align: center;
+            font-family: system-ui, sans-serif;
+        }
+        /* Styling for td elements */
+        td {
+            height: 3rem;
+            width: 3rem;
+            text-align: center;
+        }
+        /* Styling for the table */
+        table {
+            margin: 5rem auto; /* Centering the table horizontally with a top margin of 5rem */
+        }
+        /* Dark mode styling */
+        @media (prefers-color-scheme: dark) {
+            body,
+            input {
+                background: #222;
+                color: #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Heading -->
+    <h1>Tic Tac Toe</h1>
+
+    <!-- Tic Tac Toe Game Board -->
+    <table>
+        <tr>
+            <td><input type="checkbox" /></td>
+            <td><input type="checkbox" /></td>
+            <td><input type="checkbox" /></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" /></td>
+            <td><input type="checkbox" /></td>
+            <td><input type="checkbox" /></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" /></td>
+            <td><input type="checkbox" /></td>
+            <td><input type="checkbox" /></td>
+        </tr>
+    </table>
+
+    <!-- Game Over Message -->
+    <h2 hidden>Game over, refresh to play again 🧑‍💻 🤖!</h2>
+
+    <script>
+       <title>Tic Tac Toe</title>
 <meta charset="UTF-8" />
 
 <style>
@@ -150,3 +215,7 @@
     return array;
   }
 </script>
+
+    </script>
+</body>
+</html>
